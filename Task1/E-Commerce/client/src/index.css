@@ -1,0 +1,186 @@
+.logo{
+  width: fit-content;
+  background-color: aqua;
+}
+
+.nav-links{
+  width: 300px;
+  background-color: beige;
+  justify-content: space-between;
+}
+.nav-links>ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-links>ul>li{
+   list-style: none;
+   width: fit-content;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.profile-section{
+  width: fit-content;
+}
+/* styles.css */
+
+.product-list-container {
+ background-color: rgb(229, 232, 232);
+ height: max-content;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute items evenly with space around */ 
+}
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.pagination{
+  width: max-content;
+  margin-left: 40%;
+
+}
+.page-numberactive{
+  font-weight: bold;
+  
+}
+
+/* product details */
+.product-detail{
+  margin-left: 30%;
+  margin-top: 10%;
+  border: 2px solid rgb(92, 89, 89);
+  width: 30%;
+  height: max-content;
+  
+}
+
+.order-summary{
+   margin-left: 30%;
+   /* background-color: #eae8e8; */
+   width: 40%;
+   text-align: center;
+   
+}
+.summary-item{
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  border: 2px solid rgb(187, 187, 187);
+  background-color: rgb(244, 242, 242);
+  border-radius: 0.5rem;
+  
+}
+.summary-item>img{
+  margin-top: 5%;
+}
+
+.shipping{
+  margin-left: 30%;
+  width: 35%;
+  /* background-color: #4caf50; */
+  /* text-align: center; */
+
+
+
+}
+.shipping>form{
+  width: 400px;
+  /* background-color: aqua; */
+}
+.shipping>form>label{
+  /* margin-left: -30px; */
+}
+.shipping>form>input{
+  width: 100%;
+
+  
+  position: relative;
+  padding: 7px 7px;
+
+
+}
+
+.payment-details{
+  margin-left: 30%;
+  background-color: aqua;
+  width: 400px;
+}
+
+.payment-details>form>input{
+  width: 90%;
+  margin-left: 2px;
+  border-radius: 0.2rem;
+}
+
+.shipping-info{
+  margin-top:3%;
+  margin-left: 30%;
+  width: 33%;
+  border: 2px solid rgb(204, 202, 202);
+  border-radius: 0.5rem;
+  background-color: rgb(216, 218, 219);
+  
+}
+
+.payment-info{
+  margin-top: 3%;
+  margin-left: 30%;
+  width: 33%;
+  border: 2px solid rgb(204, 202, 202);
+  border-radius: 0.5rem;
+  background-color: rgb(216, 218, 219);
+}
+
+.checkout{
+  margin-top: 3%;
+  border: 2px solid rgb(204, 202, 202);
+  width: 33%;
+  border-radius: 0.5rem;
+  background-color: rgb(216, 218, 219);
+  margin-left: 30%;
+}
